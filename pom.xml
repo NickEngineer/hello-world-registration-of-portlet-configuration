@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.exo.portlet.style</groupId>
-    <artifactId>hello-style-portlet</artifactId>
+    <artifactId>hello-portlet-test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <build>
-        <finalName>hello-portlet</finalName>
+        <finalName>hello-portlet-test</finalName>
     </build>
 
     <dependencies>

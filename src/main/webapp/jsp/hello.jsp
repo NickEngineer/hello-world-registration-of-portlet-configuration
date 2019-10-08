@@ -1,5 +1,5 @@
 
-    <h2 id="hello-title">Hello</h2>
+    <h2 id="hello-title">Hello Portlet Test</h2>
     <h6>Welcome to Hello portlet!</h6>
     <p><i>Powered by eXo Platform.</i></p>
 

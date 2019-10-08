@@ -18,7 +18,7 @@
                     <object type="org.exoplatform.container.definition.PortalContainerDefinitionChange$AddDependencies">
                         <field name="dependencies">
                             <collection type="java.util.ArrayList">
-                                <value><string>hello-portlet-style</string></value>
+                                <value><string>hello-portlet-test</string></value>
                             </collection>
                         </field>
                     </object>
