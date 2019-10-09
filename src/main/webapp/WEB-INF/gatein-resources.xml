@@ -3,31 +3,17 @@
                   xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
     <portlet>
         <name>HelloTest</name>
-        <module>
-            <script>
-                <path>/js/portlet-action.js</path>
-            </script>
-            <depends>
-                <module>jquery</module>
-                <as>jq</as>
-            </depends>
-        </module>
 
         <module>
             <name>visjs</name>
             <url>https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js</url>
-        </module>
-
-        <module>
-            <name>viscss</name>
-            <url>https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css</url>
         </module>
     </portlet>
 
     <portlet-skin>
         <application-name>HelloTest</application-name>
         <portlet-name>HelloTest</portlet-name>
-        <skin-name>Default</skin-name>
+        <skin-name>DefaultTest</skin-name>
         <css-path>/styles/portlet-style.css</css-path>
     </portlet-skin>
 
