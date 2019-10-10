@@ -108,6 +108,3 @@ function draw() {
     network = new vis.Network(container, data, options);
 }
 
-window.addEventListener("load", () => {
-    draw();
-});

@@ -1,4 +1,7 @@
 
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
     <h2 id="hello-title">Hello Portlet Test</h2>
     <h6>Welcome to Hello portlet!</h6>
     <p><i>Powered by eXo Platform.</i></p>

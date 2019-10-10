@@ -1,20 +1,10 @@
 <gatein-resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_resources_1_3 http://www.gatein.org/xml/ns/gatein_resources_1_3"
                   xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
-    <portlet>
-        <name>HelloTest</name>
-
-        <module>
-            <name>visjs</name>
-            <url>https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js</url>
-        </module>
-    </portlet>
-
     <portlet-skin>
-        <application-name>HelloTest</application-name>
+        <application-name>hello-portlet-test</application-name>
         <portlet-name>HelloTest</portlet-name>
-        <skin-name>DefaultTest</skin-name>
+        <skin-name>DefaultTestStyle</skin-name>
         <css-path>/styles/portlet-style.css</css-path>
     </portlet-skin>
-
 </gatein-resources>
