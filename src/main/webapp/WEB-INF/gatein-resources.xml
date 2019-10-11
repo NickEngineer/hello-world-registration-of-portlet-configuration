@@ -2,34 +2,6 @@
                   xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_resources_1_3 http://www.gatein.org/xml/ns/gatein_resources_1_3"
                   xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
 
-    <portal-skin>
-        <skin-name>Default</skin-name>
-        <skin-module>customModuleVuetify</skin-module>
-        <css-path>/../eXoSkin/skin/css/vuetify/vuetify-all.css</css-path>
-        <css-priority>10</css-priority>
-    </portal-skin>
-
-    <portal-skin>
-        <skin-name>Enterprise</skin-name>
-        <skin-module>customModuleVuetify</skin-module>
-        <css-path>/../EnterpriseSkin/skin/css/vuetify/vuetify-all.css</css-path>
-        <css-priority>10</css-priority>
-    </portal-skin>
-
-    <portal-skin>
-        <skin-name>Default</skin-name>
-        <skin-module>customModuleSampleVuetifyPortlet</skin-module>
-        <css-path>/css/sample.css</css-path>
-        <css-priority>11</css-priority>
-    </portal-skin>
-
-    <portal-skin>
-        <skin-name>Enterprise</skin-name>
-        <skin-module>customModuleSampleVuetifyPortlet</skin-module>
-        <css-path>/css/sample.css</css-path>
-        <css-priority>11</css-priority>
-    </portal-skin>
-
     <portlet>
         <name>HelloTest</name>
         <module>
@@ -44,4 +16,37 @@
             </depends>
         </module>
     </portlet>
+
+    <portlet-skin>
+        <application-name>hello-portlet-test</application-name>
+        <portlet-name>HelloTest</portlet-name>
+        <skin-name>Default</skin-name>
+        <css-path>/../eXoSkin/skin/css/vuetify/vuetify-all.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
+    <portlet-skin>
+        <application-name>hello-portlet-test</application-name>
+        <portlet-name>HelloTest</portlet-name>
+        <skin-name>Enterprise</skin-name>
+        <css-path>/../EnterpriseSkin/skin/css/vuetify/vuetify-all.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
+    <portlet-skin>
+        <application-name>hello-portlet-test</application-name>
+        <portlet-name>HelloTest</portlet-name>
+        <skin-name>Default</skin-name>
+        <css-path>/skin/portlet-style.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
+    <portlet-skin>
+        <application-name>hello-portlet-test</application-name>
+        <portlet-name>HelloTest</portlet-name>
+        <skin-name>Enterprise</skin-name>
+        <css-path>/skin/portlet-style.css</css-path>
+        <overwrite>true</overwrite>
+    </portlet-skin>
+
 </gatein-resources>
